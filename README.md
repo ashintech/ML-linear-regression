@@ -45,3 +45,22 @@ R² Score: Evaluates the proportion of variance explained by the model.
 Scatter Plots: Explored relationships between individual features and Price.
 
 Residual Histogram: Checked normality of residuals using sns.histplot() to validate model assumptions.
+
+Installation & Requirements
+pip install pandas numpy scikit-learn seaborn matplotlib
+
+Results & Insights
+
+The model provides insights into the impact of each feature on price predictions.
+
+A well-distributed residual plot suggests that linear regression is a suitable model for this dataset.
+
+Further improvements could include feature engineering or using non-linear models for better accuracy.
+
+Future Improvements
+
+Feature Scaling: Standardizing features to improve model performance.
+
+Handling Outliers: Detecting and removing extreme values.
+
+Exploring Other Models: Testing Decision Trees or Random Forest for better accuracy.
